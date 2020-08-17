@@ -24,7 +24,7 @@ position = Vector2( 0, -43 )
 shape = SubResource( 1 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2( 0, -231 )
+position = Vector2( 0, -150 )
 rotation = -0.00788236
 current = true
 limit_left = 0
