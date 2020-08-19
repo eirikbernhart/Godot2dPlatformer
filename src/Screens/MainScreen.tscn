@@ -2,7 +2,7 @@
 
 [ext_resource path="res://src/UI/Title.tscn" type="PackedScene" id=1]
 [ext_resource path="res://src/UI/QuitButton.tscn" type="PackedScene" id=2]
-[ext_resource path="res://src/UI/PlayButton.tscn" type="PackedScene" id=3]
+[ext_resource path="res://src/UI/ChangeSceneButton.tscn" type="PackedScene" id=3]
 [ext_resource path="res://assets/background.png" type="Texture" id=4]
 [ext_resource path="res://assets/ui_theme.tres" type="Theme" id=5]
 
@@ -29,7 +29,7 @@ margin_left = -248.5
 margin_top = 71.0
 margin_right = 248.5
 margin_bottom = 128.0
-text = "My first godot game"
+text = "My First Godot Game"
 
 [node name="Menu" type="VBoxContainer" parent="."]
 anchor_left = 0.5
@@ -45,5 +45,8 @@ __meta__ = {
 }
 
 [node name="PlayButton" parent="Menu" instance=ExtResource( 3 )]
+next_scene_path = "res://src/Levels/Level01.tscn"
 
 [node name="QuitButton" parent="Menu" instance=ExtResource( 2 )]
+margin_top = 64.0
+margin_bottom = 124.0
